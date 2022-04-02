@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">コトリンアプリ練習</string>
+    <string name="btn_current">現在時刻</string>
+    <string name="txt_result">未取得</string>
+</resources>
