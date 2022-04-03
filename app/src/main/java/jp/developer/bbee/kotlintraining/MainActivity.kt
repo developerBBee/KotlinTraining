@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import jp.developer.bbee.kotlintraining.databinding.ActivityMainBinding
 import org.w3c.dom.Text
 import java.util.*
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
                     }
                     binding.txtResult.text = Date().toString()
                     enableSave = true
+
+                    Toast.makeText(mContext, R.string.msg_update, Toast.LENGTH_SHORT).show()
                 }
             }
         )

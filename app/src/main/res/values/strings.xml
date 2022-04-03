@@ -3,4 +3,5 @@
 
     <string name="btn_current">current time</string>
     <string name="txt_result">Unacquired</string>
+    <string name="msg_update">Current time updated.</string>
 </resources>
