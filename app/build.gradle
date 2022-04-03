@@ -6,6 +6,10 @@ plugins {
 android {
     compileSdk 31
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "jp.developer.bbee.kotlintraining"
         minSdk 21
