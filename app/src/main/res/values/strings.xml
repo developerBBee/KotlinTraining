@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KotlinTraining</string>
+
+    <string name="sk_name_red">RED</string>
+    <string name="sk_name_green">GREEN</string>
+    <string name="sk_name_blue">BLUE</string>
+
+    <string name="sk_text_init">255</string>
 </resources>
