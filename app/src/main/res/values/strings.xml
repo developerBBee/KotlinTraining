@@ -11,4 +11,6 @@
     </string-array>
 
     <string name="search_hint">Search</string>
+
+    <string name="user_image_description">user_icon</string>
 </resources>
