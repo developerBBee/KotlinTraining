@@ -9,4 +9,6 @@
         <item>Garlic</item>
         <item>Saffron</item>
     </string-array>
+
+    <string name="search_hint">Search</string>
 </resources>
