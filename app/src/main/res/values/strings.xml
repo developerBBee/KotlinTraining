@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">KotlinTraining</string>
+
+    <string-array name="spice_list">
+        <item>Pepper</item>
+        <item>Turmeric</item>
+        <item>Coriander</item>
+        <item>Ginger</item>
+        <item>Garlic</item>
+        <item>Saffron</item>
+    </string-array>
 </resources>
