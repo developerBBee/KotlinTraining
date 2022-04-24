@@ -7,6 +7,9 @@ import android.text.Editable
 import android.text.InputType
 import android.text.TextWatcher
 import android.view.View
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
 import android.widget.SeekBar
 import jp.developer.bbee.kotlintraining.databinding.ActivityMainBinding
 
@@ -20,6 +23,15 @@ class MainActivity : AppCompatActivity(), CustomTextWatcherListener {
 
         binder = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binder.root)
+
+        binder.web.setWebViewClient(object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(
+                view: WebView?,
+                request: WebResourceRequest?
+            ): Boolean {
+                return false // The link will be opened in the app without jumping to the browser
+            }
+        })
 
         setEditPassword() // password visibility setting
 
