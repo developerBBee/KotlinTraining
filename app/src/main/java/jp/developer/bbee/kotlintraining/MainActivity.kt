@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
          */
 
+        /*
         val btn = findViewById<Button>(R.id.btn)
         btn.setOnClickListener {
             val uriText = findViewById<EditText>(R.id.et)
@@ -57,5 +58,6 @@ class MainActivity : AppCompatActivity() {
                 }
             )
         }
+         */
     }
 }
